@@ -1,7 +1,7 @@
 title: Blog
 
-baseurl: "/official-blog"
-url: "https://leaneroz.github.io"
+baseurl: ""
+url: "https://www.leaneroz.fr"
 
 plugins:
   - jekyll-bookshop
