@@ -1,12 +1,12 @@
 backend:
-  name: github-api #git-gateway to local
-#  name: git-gateway
-  repo: leaneroz/official-blog
+#  name: github-api #git-gateway to local
+  name: git-gateway
+#  repo: leaneroz/official-blog
   branch: main # Branch to update (optional; defaults to master)
 
 # when using the default proxy server port
 # run npx netlify-cms-proxy-server
-local_backend: false # false with github
+local_backend: true # false with github
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
