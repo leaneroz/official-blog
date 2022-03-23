@@ -6,18 +6,18 @@ tags:
   - tableaux
 image: '/images/tableau-bouche.webp'
 ---
-Voici, Mon nouveau tableau intitulait
+Voici, Mon nouveau tableau intitulé
 
 > "Mes lèvres",
 
-Pour ce nouveau tableau j'ai voulu utiliser plein de couleurs pour que ça ressortent bien sûr le fond noir.
+Pour ce nouveau tableau j'ai voulu utiliser une multitude de couleurs afin que cela ressorte bien, le tout sur un fond noir.
 
 > Mes techniques
 
-Pour cela, j'ai utilisé différentes techniques notamment pour les coulures de différentes couleurs, j'ai pris ma peinture que j'ai préalablement mélangé à quelque goutte d'eau surtout n'en mettaient pas trop sa risque d'être trop transparent surtout si vous faite comme moi sur fond noir.
+Pour cela, j'ai utilisé différentes techniques, notamment en accentuant les coulures de diverses couleurs, j'ai pris ma peinture que j'ai préalablement mélangé à quelques gouttes d'eau. Surtout n'en mettez pas trop ça risque d'être trop transparent, surtout si vous faites comme moi sur fond noir.
 
-Pour les craquelures j'ai utilisé une peinture fluorescente qui normalement n'est pas faite pour la peinture sur toile mais plutôt pour la peinture sur tissue.
+Pour les craquelures j'ai utilisé une peinture fluorescente, qui normalement n'est pas faite pour la peinture sur toile, mais plutôt pour la peinture sur tissus.
 
-Pour éviter que la peinture coule sur la forme de bouche j'ai utilisé du scotch pour éviter d’abîmer la surface.
+Afin d'éviter que la peinture ne coule, sur le pourtour de la bouche, j'ai utilisé du scotch et ainsi, j'ai pu éviter d’abîmer la surface.
 
-Et enfin pour ma signature, j'ai fait une forme de nuage en blanc car malheureusement elle ne ressortait pas bien sûr fond noir.
+Enfin pour ma signature, j'ai fait une forme de nuage blanc, car malheureusement elle ne ressortait pas bien sûr fond noir.
