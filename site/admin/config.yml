@@ -1,8 +1,8 @@
 backend:
   name: github-api #git-gateway to local
 #  name: git-gateway
-  repo: leaneroz/blog
-  branch: mainpage # Branch to update (optional; defaults to master)
+  repo: leaneroz/official-blog
+  branch: main # Branch to update (optional; defaults to master)
 
 # when using the default proxy server port
 # run npx netlify-cms-proxy-server

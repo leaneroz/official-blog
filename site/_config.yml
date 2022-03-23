@@ -1,6 +1,6 @@
 title: Blog
 
-baseurl: "/blog-leane"
+baseurl: "/official-blog"
 url: "https://leaneroz.github.io"
 
 plugins:
