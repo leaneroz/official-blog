@@ -1,0 +1,12 @@
+footer_menu__settings:
+  menu__items:
+    - title: Home
+      url: ""
+    - title: Projets
+      url: projects/
+    - title: À Propos
+      url: about/
+    - title: Blog
+      url: blog/
+
+copyright_text_html: <p> 2021 &copy; <a href="/">Blog</a>. Template by <a href="/">Leaneroz</a>.</p>

@@ -1,0 +1,25 @@
+logo_image: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+
+menu__settings:
+  menu__items:
+    - title: 'Accueil'
+      url: '/'
+    - title: 'Projets'
+      url: 'projects/'
+    - title: 'Mes Travaux'
+      url: ''
+      submenu:
+      - url: '/tag/dessins'
+        title: 'Dessins'
+      - url: '/tag/tableaux'
+        title: 'Tableaux'
+    - title: 'Blog'
+      url: 'blog/'
+    - title: 'Mon CV'
+      url: 'cv-leane/'
+    - title: 'Pages'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/elements/'
+        title: 'Elements'

@@ -1,0 +1,111 @@
+backend:
+  name: github-api #git-gateway to local
+#  name: git-gateway
+  repo: leaneroz/blog
+  branch: mainpage # Branch to update (optional; defaults to master)
+
+# when using the default proxy server port
+# run npx netlify-cms-proxy-server
+local_backend: false # false with github
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: "site/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+#
+#  - name: 'menu'
+#    label: 'Menu !!!'
+#    editor:
+#      preview: false
+#    files:
+#      - label: 'Navigation header'
+#        name: 'navigation-header'
+#        file: 'site/_data/navigation.yml'
+#        fields:
+#          - { label: "Logo Site", name: "logo_image", widget: "image", required: true}
+#
+#          - { label: 'Config Menu', name: 'menu__settings', widget: "hidden" }
+#          - label: 'Navigation items'
+#            name: 'menu__items'
+#            widget: 'list'
+#            fields:
+#              - { label: 'Title', name: 'title', widget: 'string' }
+#              - { label: 'Url', name: 'url', widget: 'string' }
+#              - label: 'sous menu'
+#                name: 'submenu'
+#                widget: 'list'
+#                fields:
+#                  - { label: 'Title', name: 'title', widget: 'string' }
+#                  - { label: 'Url', name: 'url', widget: 'string' }
+#
+#      - label: 'Navigation footer'
+#        name: 'navigation-footer'
+#        file: 'site/_data/footer.yml'
+#        footer_menu__settings:
+#        fields:
+#            - label: 'Navigation items'
+#              name: 'menu__items'
+#              widget: 'list'
+#              fields:
+#                - { label: 'Title', name: 'title', widget: 'string' }
+#                - { label: 'Url', name: 'url', widget: 'string' }
+#
+#            - { label: 'Config Menu footer', name: 'copyright_text_html', widget: 'text' }
+#
+#
+  - name: 'Article'
+    label: 'Article'
+    folder: 'site/collections/_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    extension: markdown
+    editor:
+      preview: false
+    fields:
+      - { label: 'Date Publication',
+          name: 'date',
+          widget: 'datetime',
+          date_format: "DD.MM.YYYY",
+          time_format: "HH:mm" }
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: ["news"] }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+      - { label: "Image Principale", name: "image", widget: "image", required: true}
+
+  - name: 'projets'
+    label: 'Projets'
+    folder: 'site/collections/_projects'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    extension: md
+    editor:
+      preview: false
+    fields:
+      - { label: 'Date Publication',
+          name: 'date',
+          widget: 'datetime',
+          date_format: "DD.MM.YYYY",
+          time_format: "HH:mm" }
+      - { label: 'Titre', name: 'title', widget: 'string' }
+      - { label: 'Sous-Titre', name: 'subtitle', widget: 'string' }
+      - { label: 'Contenu', name: 'body', widget: 'markdown' }
+      - { label: "Image Principale", name: "image", widget: "image", "required: true" }
+
+  - name: 'Testimonials'
+    label: 'testimonials'
+    folder: 'site/collections/_testimonials'
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    editor:
+      preview: false
+    fields:
+      - { label: 'Titre', name: 'name', widget: 'string' }
+      - { label: 'Fonction', name: 'position', widget: 'string' }
+      - { label: "Photo", name: "image", widget: "image", required: true}
+      - { label: 'Description', name: 'blurb', widget: 'text' }
