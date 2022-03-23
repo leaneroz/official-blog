@@ -2,7 +2,7 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/leaneroz/blog)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/55a73e31-dc16-4db1-bc95-5a519e518831/deploy-status)](https://app.netlify.com/sites/leanerozblog/deploys)
+<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/55a73e31-dc16-4db1-bc95-5a519e518831/deploy-status)](https://app.netlify.com/sites/leanerozblog/deploys) -->
 
 Install the dependencies for Bookshop:
 
