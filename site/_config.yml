@@ -1,7 +1,7 @@
 title: Blog
 
-baseurl: "" # example: /official-blog # if activate verif favicon, end of head.html to prepend baseurl
-url: "https://www.leaneroz.fr"
+baseurl: "/official-blog" # example: /official-blog # if activate verif favicon, end of head.html to prepend baseurl
+url: "https://leaneroz.github.io"
 
 plugins:
   - jekyll-bookshop
