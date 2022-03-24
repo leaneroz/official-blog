@@ -3645,7 +3645,7 @@
   var page_heading_jekyll_default2 = page_heading_jekyll_default;
 
   // components/components/page-image/page-image.jekyll.html
-  var page_image_jekyll_default = '{% assign c = "c-page-image" %}\n<div class="container">\n  <div class="row">\n    <div class="col col-12">\n      <div class="{{c}} animate">\n        <img loading="lazy" src="{{ include.image }}" alt="{{ include.image_alt }}"> # si ajout {{ site.baseurl }} alors ../ dans image projet\n      </div>\n    </div>\n  </div>\n</div>\n';
+  var page_image_jekyll_default = '{% assign c = "c-page-image" %}\n<div class="container">\n  <div class="row">\n    <div class="col col-12">\n      <div class="{{c}} animate">\n        <img loading="lazy" src="{{ include.image }}" alt="{{ include.image_alt }}"> <!-- si ajout {{ site.baseurl }} alors ../ dans image projet -->\n      </div>\n    </div>\n  </div>\n</div>\n';
 
   // bookshop-import-file:components/page-image/page-image.jekyll.html__bookshop_file__
   var page_image_jekyll_default2 = page_image_jekyll_default;
