@@ -20,6 +20,6 @@ menu__settings:
     - title: 'Pages'
       submenu:
       - url: '/about/'
-        title: 'About'
+        title: 'À Propos'
       - url: '/elements/'
         title: 'Elements'
