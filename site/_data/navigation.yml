@@ -1,4 +1,4 @@
-logo_image: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo_image: '/images/leaneroz.png' # change size to header.html
 
 menu__settings:
   menu__items:
@@ -17,7 +17,7 @@ menu__settings:
       url: 'blog/'
     - title: 'Mon CV'
       url: 'cv-leane/'
-    - title: 'Pages'
+    - title: 'Présentations'
       submenu:
       - url: '/about/'
         title: 'À Propos'
