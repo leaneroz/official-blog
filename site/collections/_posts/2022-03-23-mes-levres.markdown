@@ -4,7 +4,7 @@ title: Mes lèvres
 description: Mon nouveau tableau bouche! avec les différentes techniques que j'ai utiliser.
 tags:
   - tableaux
-image: '/images/tableau-bouche.webp'
+image: '/images/tableau-bouche'
 ---
 Voici, Mon nouveau tableau intitulé
 

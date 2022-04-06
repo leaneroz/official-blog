@@ -104,7 +104,9 @@ tag_permalink_style: :title
 imagemagick:
   enabled: true
   widths:
-    - 800
+    - 580
+    - 380
+    - 125
     - 0
 
 
