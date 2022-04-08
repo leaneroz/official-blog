@@ -1,5 +1,5 @@
 backend:
-  name: github-api #git-gateway to local
+  name: github #git-gateway to local
 #  name: git-gateway
   repo: leaneroz/official-blog
   branch: main # Branch to update (optional; defaults to master)
