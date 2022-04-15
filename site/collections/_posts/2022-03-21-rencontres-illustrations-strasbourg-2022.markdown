@@ -6,7 +6,7 @@ description: Après une année virtuelle visitons les rencontres de l'illustrati
 tags:
   - visite
   - notes
-image: /images/rencontre-illustration-strasbourg-2022-post
+image: /images/rencontre-illustration-strasbourg-2022-post-580
 ---
 > Site officiel
 
