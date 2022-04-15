@@ -4,7 +4,7 @@ title: L'éclaire
 description: " Peinture à l'huile sur petite toile 700x700 "
 tags:
   - tableaux
-image: /images/eclaire-post-580
+image: /images/eclaire-post
 ---
 
 >Spécial dédicace aux tinyhouse.

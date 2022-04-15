@@ -4,7 +4,7 @@ title: Les montagnes dans la pénombre
 description: Ma technique des paillettes spéciale ;)
 tags:
   - tableaux
-image: /images/montagne-penombre-post-580
+image: /images/montagne-penombre-post
 ---
 **Astuce n°1** : pour être sûr de bien faire tenir toutes vos paillettes et d’éviter ainsi les chutes, vous pouvez faire un mélange de colle transparente et de paillettes à appliquer sur le support. En séchant la colle va devenir transparente et laisser apparaître les paillettes.
 
