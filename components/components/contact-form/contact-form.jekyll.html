@@ -15,19 +15,20 @@
             method="POST">
             <input type="hidden" name="_to" value="{{include.form_submission_email}}">
             <div class="{{c}}__form-group">
-              <label class="{{c}}__form-label screen-reader-text" for="form-name">Your Name</label>
-              <input class="{{c}}__form-input" id="form-name" type="text" name="name" placeholder="Votre nom..." required>
+              <label class="{{c}}__form-label screen-reader-text" for="full-name">Votre nom</label>
+              <input class="{{c}}__form-input" id="form-name" type="text" name="full-name" placeholder="Votre nom..." required>
             </div>
             <div class="{{c}}__form-group">
-              <label class="{{c}}__form-label screen-reader-text" for="form-email">Your Email</label>
-              <input class="{{c}}__form-input" id="form-email" type="email" name="_replyto" placeholder="Votre email..."
+              <label class="{{c}}__form-label screen-reader-text" for="email-address">Your Email</label>
+              <input class="{{c}}__form-input" id="email-address" type="email" name="_replyto" placeholder="Votre email..."
                 required>
             </div>
             <div class="{{c}}__form-group">
-              <label class="{{c}}__form-label screen-reader-text" for="form-text">Your Message</label>
-              <textarea class="{{c}}__form-input" id="form-text" name="text" rows="9" placeholder="Votre Message..."
+              <label class="{{c}}__form-label screen-reader-text" for="message">Your Message</label>
+              <textarea class="{{c}}__form-input" id="message" name="message" rows="9" placeholder="Votre Message..."
                 required></textarea>
             </div>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             <div class="{{c}}__form-group {{c}}__form-group--button">
               <button class="c-button c-button--primary c-button--large" type="submit">{{ include.form_button_text }}</button>
             </div>
