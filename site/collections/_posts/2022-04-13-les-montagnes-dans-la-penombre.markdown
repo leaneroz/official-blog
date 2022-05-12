@@ -1,7 +1,7 @@
 ---
 date: 2022-04-13T14:06:30.407Z
 title: Les montagnes dans la pénombre
-description: Ma technique des paillettes spéciale ;)
+description: "Ma technique des paillettes spéciale ;)"
 tags:
   - tableaux
 image: /images/montagne-penombre-post

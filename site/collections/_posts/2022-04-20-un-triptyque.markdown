@@ -3,7 +3,7 @@ date: 2022-04-20T12:02:14.758Z
 title: Un Triptic
 description: Dégradé de paillette avec peinture vive.
 tags:
-  - tableau
+  - tableaux
 image: /images/triptic-600
 ---
 Une fois votre fond crée et sec peigner en blanc la surface où vous disposerez vos paillettes laissées sécher puis appliquer votre colle et versez vos paillettes laissées les sécher puis tapoter les bords de votre tableau pour pouvoir enlever le surplus
