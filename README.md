@@ -5,7 +5,7 @@
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/55a73e31-dc16-4db1-bc95-5a519e518831/deploy-status)](https://app.netlify.com/sites/leanerozblog/deploys) -->
 
 Install the dependencies for Bookshop:
-test
+
 ~~~bash
 $ npm ci
 ~~~
